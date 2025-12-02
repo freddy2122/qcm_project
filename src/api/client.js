@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const client = axios.create({
   // On pointe directement sur les routes API Laravel
-  baseURL: 'http://127.0.0.1:8000/api',
+  baseURL: 'https://qcm.reussiratoutprix.com/api',
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json',
